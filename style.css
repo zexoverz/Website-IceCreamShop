@@ -1,3 +1,4 @@
+
 * {
     margin : 0;
     padding : 0;
@@ -84,5 +85,44 @@ h1 {
 
 .btn:hover {
     background-color: darkorange;
-
 }
+
+
+#headline {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+.top-content {
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 300px;
+    padding: 90px;
+    box-sizing: border-box;
+    }
+
+#bullet{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#bluetext{
+    color: navy;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content-page {
+    font-size: 14px;
+    text-align: left;
+    color: black;
+    width: 100%;
+    margin-bottom: 20px
+    }
