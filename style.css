@@ -82,3 +82,7 @@ h1 {
     color: white;
 }
 
+.btn:hover {
+    background-color: darkorange;
+}
+
