@@ -3,9 +3,82 @@
     padding : 0;
 }
 
-header {
-    background-image : linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./background.png)
+body {
+    font-family: monospace;
+}
+
+header
+ {
+    background-image : linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./iceCream.jpg);
     height : 100vh;
     background-size : cover;
     background-position: center;
 }
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto" , sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li a:hover
+    {
+        border: 1px solid white;
+    }
+
+.logo img {
+    width: 150px;
+    height: auto;
+    float: left;
+    
+}
+
+.Hero {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 275px;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.button {
+    margin-top: 30px;
+    margin-left: 500px;
+
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
