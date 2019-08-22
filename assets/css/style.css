@@ -164,5 +164,11 @@ h1 {
     width: 100%;
     display: inline-block;
     text-align: center;
+    margin-top: 20px;
 }
+
+h2 {
+    margin: 0;
+}
+
 
