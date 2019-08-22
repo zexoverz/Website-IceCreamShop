@@ -1,3 +1,4 @@
+
 * {
     margin : 0;
     padding : 0;
@@ -9,7 +10,7 @@ body {
 
 header
  {
-    background-image : linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./iceCream.jpg);
+    background-image : linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/iceCream.jpg);
     height : 100vh;
     background-size : cover;
     background-position: center;
@@ -84,5 +85,47 @@ h1 {
 
 .btn:hover {
     background-color: darkorange;
-
 }
+
+
+#headline {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+.top-content {
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 300px;
+    padding: 90px;
+    box-sizing: border-box;
+    }
+
+#bullet{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bluetext{
+    color: navy;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content-page {
+    font-size: 18px;
+    text-align: left;
+    word-spacing: 1px;
+    line-height: 1.2;
+    color: black;
+    width: 100%;
+    margin-bottom: 20px
+    }
