@@ -90,8 +90,8 @@ h1 {
 
 #headline {
     font-size: 30px;
-    margin-bottom: 20px;
     text-align: center;
+    margin-bottom: 10px;
     }
 
 .top-content {
@@ -109,6 +109,7 @@ h1 {
     color: black;
     font-weight: bold;
     font-size: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -128,7 +129,3 @@ h1 {
     width: 100%;
     margin-bottom: 20px
     }
-
-.promo {
-    width: 20% height: 20%;
-}
