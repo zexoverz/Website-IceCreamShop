@@ -120,9 +120,15 @@ h1 {
 }
 
 .content-page {
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
+    word-spacing: 1px;
+    line-height: 1.2;
     color: black;
     width: 100%;
     margin-bottom: 20px
     }
+
+.promo {
+    width: 20% height: 20%;
+}
