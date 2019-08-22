@@ -97,12 +97,11 @@ h1 {
     }
 
 .top-content {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: white;
-    width: 100%;
-    padding-top: 180px;
-    margin-bottom: 80px;
+    padding-top: 140px;
+    margin-bottom: 60px;
     }
 
 #bullet{
@@ -114,22 +113,21 @@ h1 {
 }
 
 .content-page {
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     word-spacing: 1px;
     line-height: 1.2;
     color: #ffF;
-    width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     }
 
 .location {
-    margin-top: 120px;
+    margin-top: 60px;
     text-align: center;
 }
 #list-loc li{
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: #ffF !important;
     margin-bottom: 10px;
