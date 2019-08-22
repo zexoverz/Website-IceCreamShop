@@ -50,7 +50,6 @@
         .container {
             border-radius: 5px;
             background-color: transparent;
-            padding: 20px;
             margin-top: 5%;
         }
 
@@ -75,6 +74,11 @@
             clear: both;
         }
 
+        .main {
+            margin-left: -10%;
+            margin-top: 5%;
+        }
+
         @media screen and (max-width: 600px) {
 
             .col-25,
@@ -86,6 +90,8 @@
         }
     </style>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+
 </head>
 
 <body>
@@ -94,14 +100,18 @@
             <div class="logo">
                 <img src="assets/img/logo3.png">
             </div>
-            <ul class="main-nav">
+            <ul class="main-nav animated fadeInRight">
                 <li> <a href="index.html">Home</a></li>
                 <li> <a href="about.html">About</a></li>
                 <li> <a href="menu.html">Menu</a></li>
-                <li> <a href="contact.html">Contact</a></li>
+                <li class="page-active"> <a href="contact.html"> <del>Contact</del> </a></li>
+                <li> <a href="team.html">Developer</a></li>
             </ul>
         </div>
-        <div class="container">
+    </header>
+
+    <div class="main">
+        <div class="container  animated fadeInLeft">
             <form action="https://formspree.io/syahrilaku17@gmail.com" method="post">
                 <div class="row">
                     <div class="col-25">
@@ -141,8 +151,7 @@
                 </div>
             </form>
         </div>
-    </header>
-
+    </div>
 </body>
 
 </html>
